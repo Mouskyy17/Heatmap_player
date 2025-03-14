@@ -33,7 +33,7 @@ def draw_heatmap(player_name, ax):
     x = np.random.uniform(0, 100, size=player_data.shape[0])
     y = np.random.uniform(0, 100, size=player_data.shape[0])
     
-    pitch = Pitch(pitch_type='statsbomb', pitch_color='white', line_color='black')
+    pitch = Pitch(pitch_type='statsbomb', pitch_color='grass', line_color='black')
     pitch.draw(ax=ax)
     
     sns.kdeplot(x=x, y=y, shade=True, cmap="Reds", alpha=0.6, ax=ax)
