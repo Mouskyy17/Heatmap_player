@@ -1,6 +1,0 @@
-mplsoccer
-seaborn
-matplotlib
-numpy
-pandas
-streamlit
